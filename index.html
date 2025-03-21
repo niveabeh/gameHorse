@@ -15,6 +15,11 @@
 </head>
 <body>
     <div class="main-container">
+        <div class="main-horse-container">
+            <div>
+                <h5 id="outCavalo" class="mt-4"></h5>
+            </div>
+        </div>
         <div class="container-fluid" id="father-container">
             <div class="row">
                 <div class="col-sm-6" id="container-img">
@@ -34,19 +39,17 @@
                             </div>
                             <div class="box-form">
                                 <form>
+
                                     <div class="number-horse">
                                         <label for="inCavalo">Nº Cavalo</label>
-                                        <input type="number" min="1" class="form-control" id="inCavalo" required
-                                            autofocus>
-                                    </div>
-                                    <div class="">
-                                        <h5 id="outCavalo" class="mt-4"></h5>
+                                        <input type="number" min="1" class="form-control" id="inCavalo" required autofocus>
                                     </div>
                                     <div class="aposta-money">
-                                        <label for="inAposta">Aposta R$:</label>
+                                        <label for="inValor">Aposta R$:</label>
                                         <input type="number" class="form-control" min="1" step="0.5" id="inValor"
                                             required>
                                     </div>
+
                                     <div class="box-buttom">
                                         <input type="submit" id="btApostar" class="btn btn-outline-dark mt-4"
                                             value="Apostar">
@@ -55,6 +58,7 @@
                                             value="Ganhador">
                                         <input type="button" id="btNovo" class="btn btn-outline-dark mt-4" value="Novo Páreo">
                                     </div>
+                                    
                                 </form>
                             </div>
                             <pre class="mt-3"></pre>
